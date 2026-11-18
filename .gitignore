@@ -1,0 +1,26 @@
+# ---- KiCad backups / autosave / local history ----
+*-backups/
+.history/
+_autosave-*
+*.bak
+*-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+~*.lck
+*.lck
+fp-info-cache
+\#auto_saved_files\#
+
+# ---- KiCad per-user local settings (layer visibility, open sheets, etc.) ----
+*.kicad_prl
+
+# ---- Ad-hoc 3D exports in the project root (library models in libs/ stay tracked) ----
+/*.step
+/*.stp
+/*.wrl
+
+# ---- OS / editor junk ----
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
